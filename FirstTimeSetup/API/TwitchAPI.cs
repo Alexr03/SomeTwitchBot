@@ -11,12 +11,12 @@ namespace DiscordBot.API
 {
     public class TwitchAPI
     {
+        private static TwitchClient client;
         public static void Test()
         {
             TwitchLib.TwitchAPI.Settings.ClientId = "pz6o9dsl95pbb85vgfb8ggf9vwmuee";
             TwitchLib.TwitchAPI.Settings.AccessToken = "vjazqh3f42xx4tn29u6bufjkrmrlkj";
 
-            TwitchClient client;
             ConnectionCredentials credentials = new ConnectionCredentials("Alexr03", "oauth:ssxt2tcpz1ngw9jnacmh6h7rcet3sd");
 
             client = new TwitchClient(credentials, "hd_neat");
@@ -24,6 +24,11 @@ namespace DiscordBot.API
             client.OnMessageReceived += onMessageReceived;
             client.OnWhisperReceived += onWhisperReceived;
             client.OnNewSubscriber += onNewSubscriber;
+        }
+
+        public static TwitchClient instance()
+        {
+            return client;
         }
 
         private static void onNewSubscriber(object sender, OnNewSubscriberArgs e)
@@ -44,6 +49,7 @@ namespace DiscordBot.API
         private static void onJoinedChannel(object sender, OnJoinedChannelArgs e)
         {
             Discord_Bot.ConsoleBoxText("Joined channel: " + e.Channel + " with: " + e.BotUsername);
+            DiscordBot.client.GetChannelAsync
         }
     }
 }
