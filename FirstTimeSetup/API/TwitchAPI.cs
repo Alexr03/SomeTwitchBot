@@ -18,6 +18,7 @@ namespace DiscordBot.API
             ConnectionCredentials credentials = new ConnectionCredentials("Alexr03", "b8nv5cwrm5i8qrayuyf9lf2k8jyves");
 
             client = new TwitchClient(credentials, "hd_neat");
+            client.Connect();
 
             client.OnConnectionError += onConnectionError;
             client.OnConnected += onConnected;
@@ -63,7 +64,8 @@ namespace DiscordBot.API
 
         private static void onMessageReceived(object sender, OnMessageReceivedArgs e)
         {
-            
+            Discord_Bot.ConsoleBoxText(string.Format("{0}: {1}", e.ChatMessage.Username, e.ChatMessage.Message));
+            var chan = DiscordBot.client.GetChannelAsync(362888040928116736).Result.SendMessageAsync(string.Format("{0}: {1}", e.ChatMessage.Username, e.ChatMessage.Message));
         }
 
         private static void onJoinedChannel(object sender, OnJoinedChannelArgs e)

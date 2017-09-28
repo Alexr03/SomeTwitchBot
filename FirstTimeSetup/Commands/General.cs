@@ -41,8 +41,22 @@ namespace DiscordBot.Commands
                 {
                     await ctx.RespondAsync("Connected, :D");
                 }
+            }
+            else
+            {
+                await ctx.RespondAsync("Yeah f**k off " + ctx.Member.Mention + " do I look like I know you?");
+            }
+        }
 
-                await ctx.RespondAsync("Welp, um I failed to connect " + ctx.Member.Mention);
+        [Command("tstats"), Aliases("linkstats"), Description("Gets stats.")]
+        public async Task Stats(CommandContext ctx)
+        {
+            if (ctx.Member.Id == 183270722548793344)
+            {
+                await ctx.RespondAsync("Getting Stats.");
+                if (!TwitchAPI.instance().JoinedChannels.Any()) { TwitchAPI.instance().JoinChannel("hd_neat"); }
+                await ctx.RespondAsync("RoomID: " + TwitchAPI.instance().GetJoinedChannel("hd_neat").ChannelState.RoomId);
+
             }
             else
             {
