@@ -51,7 +51,7 @@ namespace DiscordBot.Commands
         [Command("unlink"), Aliases("disc", "disconnect"), Description("Disconnect")]
         public async Task disonnect(CommandContext ctx)
         {
-            if (ctx.Member.Id == 183270722548793344 || ctx.Guild
+            if (ctx.Member.Id == 183270722548793344 || ctx.Member.Id == 201751786745364482 || ctx.Member.Id == 138049119527763970)
             {
                 await ctx.RespondAsync("Unlinking...");
 
