@@ -205,3 +205,6 @@ E:\Development\SomeTwitchBot\FirstTimeSetup\bin\Debug\RestSharp.xml
 E:\Development\SomeTwitchBot\FirstTimeSetup\bin\Debug\System.Net.Http.Extensions.xml
 E:\Development\SomeTwitchBot\FirstTimeSetup\bin\Debug\System.Net.Http.Primitives.xml
 E:\Development\SomeTwitchBot\FirstTimeSetup\bin\Debug\TwitchLib.xml
+E:\HDNeat Bot\DiscordBot.exe.config
+E:\HDNeat Bot\DiscordBot.exe
+E:\HDNeat Bot\DiscordBot.pdb

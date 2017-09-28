@@ -29,7 +29,6 @@ namespace DiscordBot
         public static string json;
         public static string usrjson;
         public static Configuration config;
-        public static List<jsonDataUser> usrConfig = new List<jsonDataUser>();
         public static CommandsNextModule CommandsNextService;
 
         public DiscordBot()

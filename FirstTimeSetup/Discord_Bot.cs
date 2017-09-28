@@ -20,7 +20,6 @@ namespace DiscordBot
     public partial class Discord_Bot : MaterialForm
     {
         public static Configuration config;
-        public static jsonDataUser userdata;
         public static IList<ulong> admins = new List<ulong>();
         public static string json;
         public static string usrjson;

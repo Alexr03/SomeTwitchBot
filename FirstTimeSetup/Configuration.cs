@@ -7,15 +7,6 @@ using DiscordBot.API;
 
 namespace DiscordBot
 {
-    public class jsonDataUser
-    {
-        public ulong OwnerID { get; set; }
-        public string Username { get; set; }
-        public string Password { get; set; }
-        public LoginData LoginData { get; set; }
-        public ProfileData ProfileData { get; set; }
-    }
-
     public class Configuration
     {
         public bool Master { get; set; }

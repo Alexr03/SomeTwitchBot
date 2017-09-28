@@ -105,7 +105,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="API\HTTPApi.cs" />
     <Compile Include="API\TwitchClientAPI.cs" />
     <Compile Include="Commands\General.cs" />
     <Compile Include="Configuration.cs" />
@@ -117,7 +116,6 @@
       <DependentUpon>Discord_Bot.cs</DependentUpon>
     </Compile>
     <Compile Include="Extensions.cs" />
-    <Compile Include="Functions.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Discord_Bot.resx">
