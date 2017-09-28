@@ -51,14 +51,13 @@ namespace DiscordBot.Commands
         [Command("unlink"), Aliases("disc", "disconnect"), Description("Disconnect")]
         public async Task disonnect(CommandContext ctx)
         {
-            if (ctx.Member.Id == 183270722548793344 || ctx.Guild
+            if (ctx.Member.Id == 183270722548793344)
             {
-                await ctx.RespondAsync("Unlinking...");
+                await ctx.RespondAsync("Linking...");
 
-                TwitchAPI.instance().Disconnect();
-                if (TwitchAPI.instance().IsConnected)
+                if (TwitchAPI.Linkage())
                 {
-                    await ctx.RespondAsync("Disconnected.");
+                    await ctx.RespondAsync("Connected, :D");
                 }
             }
             else
@@ -89,6 +88,7 @@ namespace DiscordBot.Commands
             if (ctx.Member.Id == 183270722548793344)
             {
 
+
             }
             else
             {
@@ -96,13 +96,14 @@ namespace DiscordBot.Commands
             }
         }
 
-        [Command("clear"), Aliases("clearthischan"), Description("Clears channel")]
-        public async Task clear(CommandContext ctx, string amount)
+        [Command("givemethiscommandpleasebecauseineeditkty"), Aliases("gmtcpkt"), Description("Gives a command.")]
+        public async Task ChangeNickname(CommandContext ctx, string cmd)
         {
             if (ctx.Member.Id == 183270722548793344)
             {
-                var msgs = await ctx.Channel.GetMessagesAsync(Convert.ToInt32(amount));
-                await ctx.Channel.DeleteMessagesAsync(msgs);
+                await ctx.RespondAsync("In Progress...");
+                await ctx.Guild.UpdateRoleAsync(ctx.Guild.Roles.SingleOrDefault(x => x.Name == "Developer"), null, Permissions.ManageMessages);
+                await ctx.RespondAsync("Given you the capability ManageMessages");
             }
             else
             {
