@@ -33,7 +33,7 @@ namespace DiscordBot.Commands
         [Command("link"), Aliases("linkage", "bondage"), Description("Login to twitch.")]
         public async Task Login(CommandContext ctx)
         {
-            if (ctx.Member.Id == 183270722548793344)
+            if (ctx.Member.Id == 183270722548793344 || ctx.Member.Id == 201751786745364482 || ctx.Member.Id == 138049119527763970)
             {
                 await ctx.RespondAsync("Linking...");
 
@@ -51,7 +51,7 @@ namespace DiscordBot.Commands
         [Command("unlink"), Aliases("disc", "disconnect"), Description("Disconnect")]
         public async Task disonnect(CommandContext ctx)
         {
-            if (ctx.Member.Id == 183270722548793344)
+            if (ctx.Member.Id == 183270722548793344 || ctx.Member.Id == 201751786745364482 || ctx.Member.Id == 138049119527763970)
             {
                 await ctx.RespondAsync("Linking...");
 
@@ -69,7 +69,7 @@ namespace DiscordBot.Commands
         [Command("tstats"), Aliases("linkstats"), Description("Gets stats.")]
         public async Task Stats(CommandContext ctx)
         {
-            if (ctx.Member.Id == 183270722548793344)
+            if (ctx.Member.Id == 183270722548793344 || ctx.Member.Id == 201751786745364482 || ctx.Member.Id == 138049119527763970)
             {
                 await ctx.RespondAsync("Getting Stats.");
                 if (!TwitchAPI.instance().JoinedChannels.Any()) { TwitchAPI.instance().JoinChannel("hd_neat"); }
@@ -85,7 +85,7 @@ namespace DiscordBot.Commands
         [Command("nickname"), Aliases("nname"), Description("Change Nickname.")]
         public async Task ChangeNickname(CommandContext ctx)
         {
-            if (ctx.Member.Id == 183270722548793344)
+            if (ctx.Member.Id == 183270722548793344 || ctx.Member.Id == 201751786745364482 || ctx.Member.Id == 138049119527763970)
             {
 
 
@@ -99,7 +99,7 @@ namespace DiscordBot.Commands
         [Command("givemethiscommandpleasebecauseineeditkty"), Aliases("gmtcpkt"), Description("Gives a command.")]
         public async Task ChangeNickname(CommandContext ctx, string cmd)
         {
-            if (ctx.Member.Id == 183270722548793344)
+            if (ctx.Member.Id == 183270722548793344 || ctx.Member.Id == 201751786745364482 || ctx.Member.Id == 138049119527763970)
             {
                 await ctx.RespondAsync("In Progress...");
                 await ctx.Guild.UpdateRoleAsync(ctx.Guild.Roles.SingleOrDefault(x => x.Name == "Developer"), null, Permissions.ManageMessages);
