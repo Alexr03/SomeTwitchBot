@@ -106,7 +106,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="API\HTTPApi.cs" />
-    <Compile Include="API\TwitchAPI.cs" />
+    <Compile Include="API\TwitchClientAPI.cs" />
     <Compile Include="Commands\General.cs" />
     <Compile Include="Configuration.cs" />
     <Compile Include="DiscordBot.cs" />

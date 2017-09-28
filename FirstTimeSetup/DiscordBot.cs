@@ -34,7 +34,6 @@ namespace DiscordBot
 
         public DiscordBot()
         {
-            
         }
 
         public static async Task StartAsync()
