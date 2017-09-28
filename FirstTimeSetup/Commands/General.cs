@@ -132,14 +132,14 @@ namespace DiscordBot.Commands
                 Title = "Commands: \n",
                 Image = new DiscordEmbedImage
                 {
-                    Url = "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/d6/d6a5fc132fc4bcf4c92e8759ece09dda54969d39_full.jpg",
+                    Url = "",
                 },
                 Fields = fields,
                 Color = 0x00f2ff,
                 Provider = new DiscordEmbedProvider
                 {
-                    Name = "Alexr03",
-                    Url = "http://steamcommunity.com/id/alexred03/"
+                    Name = "HD-NEAT",
+                    Url = "twitch.tv/hd-neat"
                 },
             };
 

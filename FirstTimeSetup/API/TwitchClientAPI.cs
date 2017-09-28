@@ -5,9 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 using TwitchLib;
 using TwitchLib.Models.Client;
+using TwitchLib.Models.API;
 using TwitchLib.Events.Client;
 using System.Windows.Forms;
 using DSharpPlus;
+using TwitchLib.Events.PubSub;
 
 namespace DiscordBot.API
 {
@@ -20,7 +22,6 @@ namespace DiscordBot.API
 
             client = new TwitchClient(credentials, "hd_neat");
             client.Connect();
-
             client.OnModeratorJoined += onModJoined;
             client.OnConnectionError += onConnectionError;
             client.OnConnected += onConnected;
@@ -28,6 +29,11 @@ namespace DiscordBot.API
             client.OnMessageReceived += onMessageReceived;
             client.OnHostingStarted += onHostingStarted;
             client.OnNewSubscriber += onNewSubscriber;
+
+            TwitchPubSub pubsub = new TwitchPubSub();
+            pubsub.OnBitsReceived += onPubSubBitsReceived;
+
+            pubsub.Connect();
 
             if (client.IsConnected)
             {
@@ -37,6 +43,33 @@ namespace DiscordBot.API
             {
                 return false;
             }
+        }
+
+        private static void onPubSubBitsReceived(object sender, OnBitsReceivedArgs e)
+        {
+            DiscordEmbed embed = new DiscordEmbed
+            {
+                Color = 0x00ffff,
+                Image = new DiscordEmbedImage
+                {
+                    Url = $"https://cdn.twitchalerts.com/twitch-bits/images/hd/100.gif"
+                },
+                Author = new DiscordEmbedAuthor
+                {
+                    Name = DiscordBot.client.CurrentUser.Username,
+                    IconUrl = DiscordBot.client.CurrentUser.AvatarUrl
+                },
+                Title = "Bits! Bits! Bits!",
+                Url = "https://www.twitch.tv/hd_neat",
+                Fields = new List<DiscordEmbedField>()
+                {
+                    new DiscordEmbedField()
+                    {
+                       Name = "HD-NEAT HAS RECEIVED BITSSS!" ,
+                       Value = $"{e.BitsUsed} bits from {e.Username}. That brings their total to {e.TotalBitsUsed} bits!"
+                    }
+                },
+            };
         }
 
         private static void onModJoined(object sender, OnModeratorJoinedArgs e)
@@ -86,6 +119,11 @@ namespace DiscordBot.API
             Discord_Bot.ConsoleBoxText("Connected. " + e.BotUsername);
         }
 
+        private static void onSubConnected(object sender, OnConnectedArgs e)
+        {
+           
+        }
+
         private static void onConnectionError(object sender, OnConnectionErrorArgs e)
         {
             Discord_Bot.ConsoleBoxText("ERROR WHEN CONNECTING.... " + e.Error + "\n Name: " + e.BotUsername);
@@ -98,19 +136,39 @@ namespace DiscordBot.API
 
         private static void onNewSubscriber(object sender, OnNewSubscriberArgs e)
         {
-            DiscordEmbed embed = new DiscordEmbed
-            {
-                Color = 0x00ffff,
-                Author = new DiscordEmbedAuthor
-                {
-                    Name = DiscordBot.client.CurrentUser.Username,
-                    IconUrl = DiscordBot.client.CurrentUser.AvatarUrl
-                },
-                Title = e.Subscriber.DisplayName + " has subscribed to " + e.Channel,
-                Url = "https://www.twitch.tv/hd_neat",
-            };
+            if (e.Subscriber.IsTwitchPrime) {
 
-            var chan = DiscordBot.client.GetChannelAsync(362888040928116736).Result.SendMessageAsync("\n", embed: embed);
+                DiscordEmbed embed = new DiscordEmbed
+                {
+                    Color = 0x00ffff,
+                    Author = new DiscordEmbedAuthor
+                    {
+                        Name = DiscordBot.client.CurrentUser.Username,
+                        IconUrl = DiscordBot.client.CurrentUser.AvatarUrl
+                    },
+                    Title = e.Subscriber.DisplayName + " has subscribed to " + e.Channel + "using Twitch Prime!",
+                    Url = "https://www.twitch.tv/hd_neat",
+                };
+
+                var chan = DiscordBot.client.GetChannelAsync(362888040928116736).Result.SendMessageAsync("\n", embed: embed);
+
+            }
+            else
+            {
+                DiscordEmbed embed = new DiscordEmbed
+                {
+                    Color = 0x00ffff,
+                    Author = new DiscordEmbedAuthor
+                    {
+                        Name = DiscordBot.client.CurrentUser.Username,
+                        IconUrl = DiscordBot.client.CurrentUser.AvatarUrl
+                    },
+                    Title = e.Subscriber.DisplayName + " has subscribed to " + e.Channel,
+                    Url = "https://www.twitch.tv/hd_neat",
+                };
+
+                var chan = DiscordBot.client.GetChannelAsync(362888040928116736).Result.SendMessageAsync("\n", embed: embed);
+            }
         }
 
         private static void onWhisperReceived(object sender, OnWhisperReceivedArgs e)
