@@ -1,0 +1,15 @@
+{
+  "Master": true,
+  "Name": "cPanel",
+  "Token": "MzYyOTg2NDc4NDQxMjAxNjY1.DK6pCQ.j3BchX_X0iKGp_7QdQw-_E-6eX8",
+  "Owner": 183270722548793344,
+  "FTPHost": "",
+  "FTPUser": "",
+  "FTPPass": "",
+  "AdminIDs": [
+    183270722548793344,
+    165879767881613312
+  ],
+  "Debug": true,
+  "FirstTimeSetup": false
+}

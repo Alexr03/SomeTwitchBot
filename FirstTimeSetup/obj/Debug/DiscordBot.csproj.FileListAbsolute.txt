@@ -1,0 +1,134 @@
+C:\Users\Alex\Desktop\LYHMEDiscord\FirstTimeSetup\bin\Debug\DiscordBot.exe.config
+C:\Users\Alex\Desktop\LYHMEDiscord\FirstTimeSetup\bin\Debug\DiscordBot.exe
+C:\Users\Alex\Desktop\LYHMEDiscord\FirstTimeSetup\bin\Debug\DiscordBot.pdb
+C:\Users\Alex\Desktop\LYHMEDiscord\FirstTimeSetup\bin\Debug\Colorful.Console.dll
+C:\Users\Alex\Desktop\LYHMEDiscord\FirstTimeSetup\bin\Debug\Discord.Net.Commands.dll
+C:\Users\Alex\Desktop\LYHMEDiscord\FirstTimeSetup\bin\Debug\Discord.Net.dll
+C:\Users\Alex\Desktop\LYHMEDiscord\FirstTimeSetup\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Alex\Desktop\LYHMEDiscord\FirstTimeSetup\bin\Debug\ImgFlip.dll
+C:\Users\Alex\Desktop\LYHMEDiscord\FirstTimeSetup\bin\Debug\Ionic.BZip2.dll
+C:\Users\Alex\Desktop\LYHMEDiscord\FirstTimeSetup\bin\Debug\MaterialSkin.dll
+C:\Users\Alex\Desktop\LYHMEDiscord\FirstTimeSetup\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Alex\Desktop\LYHMEDiscord\FirstTimeSetup\bin\Debug\QRCoder.dll
+C:\Users\Alex\Desktop\LYHMEDiscord\FirstTimeSetup\bin\Debug\QueryMaster.dll
+C:\Users\Alex\Desktop\LYHMEDiscord\FirstTimeSetup\bin\Debug\StrawPollNET.dll
+C:\Users\Alex\Desktop\LYHMEDiscord\FirstTimeSetup\bin\Debug\Nito.AsyncEx.dll
+C:\Users\Alex\Desktop\LYHMEDiscord\FirstTimeSetup\bin\Debug\WebSocket4Net.dll
+C:\Users\Alex\Desktop\LYHMEDiscord\FirstTimeSetup\bin\Debug\RestSharp.dll
+C:\Users\Alex\Desktop\LYHMEDiscord\FirstTimeSetup\bin\Debug\UnityEngine.dll
+C:\Users\Alex\Desktop\LYHMEDiscord\FirstTimeSetup\bin\Debug\Nito.AsyncEx.Enlightenment.dll
+C:\Users\Alex\Desktop\LYHMEDiscord\FirstTimeSetup\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Alex\Desktop\LYHMEDiscord\FirstTimeSetup\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Alex\Desktop\LYHMEDiscord\FirstTimeSetup\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Alex\Desktop\LYHMEDiscord\FirstTimeSetup\bin\Debug\QueryMaster.xml
+C:\Users\Alex\Desktop\LYHMEDiscord\FirstTimeSetup\bin\Debug\StrawPollNET.xml
+C:\Users\Alex\Desktop\LYHMEDiscord\FirstTimeSetup\bin\Debug\Nito.AsyncEx.xml
+C:\Users\Alex\Desktop\LYHMEDiscord\FirstTimeSetup\bin\Debug\RestSharp.xml
+C:\Users\Alex\Desktop\LYHMEDiscord\FirstTimeSetup\bin\Debug\Nito.AsyncEx.Enlightenment.xml
+C:\Users\Alex\Desktop\LYHMEDiscord\FirstTimeSetup\obj\Debug\DiscordBot.csprojResolveAssemblyReference.cache
+C:\Users\Alex\Desktop\LYHMEDiscord\FirstTimeSetup\obj\Debug\DiscordBot.Discord_Bot.resources
+C:\Users\Alex\Desktop\LYHMEDiscord\FirstTimeSetup\obj\Debug\DiscordBot.Properties.Resources.resources
+C:\Users\Alex\Desktop\LYHMEDiscord\FirstTimeSetup\obj\Debug\DiscordBot.csproj.GenerateResource.Cache
+C:\Users\Alex\Desktop\LYHMEDiscord\FirstTimeSetup\obj\Debug\DiscordBot.exe
+C:\Users\Alex\Desktop\LYHMEDiscord\FirstTimeSetup\obj\Debug\DiscordBot.pdb
+C:\Users\Alex\Desktop\LYHMEDiscord\FirstTimeSetup\bin\Debug\websocket-sharp.dll
+C:\Users\Alex\Desktop\LYHMEDiscord\FirstTimeSetup\bin\Debug\websocket-sharp.xml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEHosting\FirstTimeSetup\bin\Debug\DiscordBot.exe.config
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEHosting\FirstTimeSetup\bin\Debug\DiscordBot.exe
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEHosting\FirstTimeSetup\bin\Debug\DiscordBot.pdb
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEHosting\FirstTimeSetup\bin\Debug\MaterialSkin.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEHosting\FirstTimeSetup\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEHosting\FirstTimeSetup\bin\Debug\UnityEngine.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEHosting\FirstTimeSetup\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEHosting\FirstTimeSetup\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEHosting\FirstTimeSetup\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEHosting\FirstTimeSetup\bin\Debug\QueryMaster.xml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEHosting\FirstTimeSetup\bin\Debug\StrawPollNET.xml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEHosting\FirstTimeSetup\obj\Debug\DiscordBot.csprojResolveAssemblyReference.cache
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEHosting\FirstTimeSetup\obj\Debug\DiscordBot.Discord_Bot.resources
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEHosting\FirstTimeSetup\obj\Debug\DiscordBot.Properties.Resources.resources
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEHosting\FirstTimeSetup\obj\Debug\DiscordBot.csproj.GenerateResource.Cache
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEHosting\FirstTimeSetup\obj\Debug\DiscordBot.exe
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEHosting\FirstTimeSetup\obj\Debug\DiscordBot.pdb
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEHosting\FirstTimeSetup\bin\Debug\Microsoft.Threading.Tasks.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEHosting\FirstTimeSetup\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEHosting\FirstTimeSetup\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEHosting\FirstTimeSetup\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEHosting\FirstTimeSetup\bin\Debug\UptimeSharp.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEHosting\FirstTimeSetup\bin\Debug\Microsoft.Threading.Tasks.xml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEHosting\FirstTimeSetup\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEHosting\FirstTimeSetup\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEHosting\FirstTimeSetup\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEHosting\FirstTimeSetup\obj\Debug\DiscordBot.csproj.App.config
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEHosting\FirstTimeSetup\bin\Debug\DSharpPlus.CommandsNext.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEHosting\FirstTimeSetup\bin\Debug\DSharpPlus.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEHosting\FirstTimeSetup\bin\Debug\DSharpPlus.Interactivity.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEHosting\FirstTimeSetup\bin\Debug\DSharpPlus.xml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEHosting\FirstTimeSetup\bin\Debug\WHMCS.Net.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEBot\FirstTimeSetup\obj\Debug\DiscordBot.csproj.App.config
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEBot\FirstTimeSetup\obj\Debug\DiscordBot.csprojResolveAssemblyReference.cache
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEBot\FirstTimeSetup\obj\Debug\DiscordBot.Discord_Bot.resources
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEBot\FirstTimeSetup\obj\Debug\DiscordBot.Properties.Resources.resources
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEBot\FirstTimeSetup\obj\Debug\DiscordBot.csproj.GenerateResource.Cache
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEBot\FirstTimeSetup\obj\Debug\DiscordBot.exe
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEBot\FirstTimeSetup\obj\Debug\DiscordBot.pdb
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEBot\FirstTimeSetup\bin\Debug\DiscordBot.exe.config
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEBot\FirstTimeSetup\bin\Debug\DiscordBot.exe
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEBot\FirstTimeSetup\bin\Debug\DiscordBot.pdb
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEBot\FirstTimeSetup\bin\Debug\DSharpPlus.CommandsNext.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEBot\FirstTimeSetup\bin\Debug\DSharpPlus.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEBot\FirstTimeSetup\bin\Debug\DSharpPlus.Interactivity.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEBot\FirstTimeSetup\bin\Debug\MaterialSkin.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEBot\FirstTimeSetup\bin\Debug\Microsoft.Threading.Tasks.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEBot\FirstTimeSetup\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEBot\FirstTimeSetup\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEBot\FirstTimeSetup\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEBot\FirstTimeSetup\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEBot\FirstTimeSetup\bin\Debug\UptimeSharp.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEBot\FirstTimeSetup\bin\Debug\WHMCS.Net.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEBot\FirstTimeSetup\bin\Debug\UnityEngine.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEBot\FirstTimeSetup\bin\Debug\DSharpPlus.xml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEBot\FirstTimeSetup\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEBot\FirstTimeSetup\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEBot\FirstTimeSetup\bin\Debug\Microsoft.Threading.Tasks.xml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEBot\FirstTimeSetup\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEBot\FirstTimeSetup\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEBot\FirstTimeSetup\bin\Debug\QueryMaster.xml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEBot\FirstTimeSetup\bin\Debug\StrawPollNET.xml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEBot\FirstTimeSetup\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEBot\FirstTimeSetup\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEBot\FirstTimeSetup\bin\Debug\DSharpPlus.CommandsNext.xml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\LYHMEBot\FirstTimeSetup\bin\Debug\DSharpPlus.Interactivity.xml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\VanGuardBot\FirstTimeSetup\bin\Debug\DiscordBot.exe.config
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\VanGuardBot\FirstTimeSetup\bin\Debug\DiscordBot.exe
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\VanGuardBot\FirstTimeSetup\bin\Debug\DiscordBot.pdb
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\VanGuardBot\FirstTimeSetup\bin\Debug\DSharpPlus.CommandsNext.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\VanGuardBot\FirstTimeSetup\bin\Debug\DSharpPlus.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\VanGuardBot\FirstTimeSetup\bin\Debug\DSharpPlus.Interactivity.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\VanGuardBot\FirstTimeSetup\bin\Debug\MaterialSkin.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\VanGuardBot\FirstTimeSetup\bin\Debug\Microsoft.Threading.Tasks.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\VanGuardBot\FirstTimeSetup\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\VanGuardBot\FirstTimeSetup\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\VanGuardBot\FirstTimeSetup\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\VanGuardBot\FirstTimeSetup\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\VanGuardBot\FirstTimeSetup\bin\Debug\DSharpPlus.xml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\VanGuardBot\FirstTimeSetup\bin\Debug\DSharpPlus.CommandsNext.xml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\VanGuardBot\FirstTimeSetup\bin\Debug\DSharpPlus.Interactivity.xml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\VanGuardBot\FirstTimeSetup\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\VanGuardBot\FirstTimeSetup\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\VanGuardBot\FirstTimeSetup\bin\Debug\Microsoft.Threading.Tasks.xml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\VanGuardBot\FirstTimeSetup\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\VanGuardBot\FirstTimeSetup\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\VanGuardBot\FirstTimeSetup\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\VanGuardBot\FirstTimeSetup\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\VanGuardBot\FirstTimeSetup\obj\Debug\DiscordBot.csproj.App.config
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\VanGuardBot\FirstTimeSetup\obj\Debug\DiscordBot.csprojResolveAssemblyReference.cache
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\VanGuardBot\FirstTimeSetup\obj\Debug\DiscordBot.Discord_Bot.resources
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\VanGuardBot\FirstTimeSetup\obj\Debug\DiscordBot.Properties.Resources.resources
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\VanGuardBot\FirstTimeSetup\obj\Debug\DiscordBot.csproj.GenerateResource.Cache
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\VanGuardBot\FirstTimeSetup\obj\Debug\DiscordBot.exe
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\VanGuardBot\FirstTimeSetup\obj\Debug\DiscordBot.pdb
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\VanGuardBot\FirstTimeSetup\bin\Debug\JsonFx.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\VanGuardBot\FirstTimeSetup\bin\Debug\JsonFx.xml
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\VanGuardBot\FirstTimeSetup\bin\Debug\RestSharp.dll
+C:\Users\Alex\Documents\Visual Studio 2017\Projects\VanGuardBot\FirstTimeSetup\bin\Debug\RestSharp.xml

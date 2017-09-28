@@ -1,0 +1,32 @@
+{
+  "dataUser": [
+    {
+      "OwnerID": 777777777777777,
+      "Username": "Alex",
+      "Password": "Morgan",
+      "LoginData": {
+        "username": null,
+        "password": null,
+        "token": null
+      },
+      "ProfileData": {
+        "id": 0,
+        "first_name": null,
+        "last_name": null,
+        "steamid": null,
+        "username": null,
+        "email": null,
+        "phone": null,
+        "avatar": null,
+        "address": null,
+        "country_id": 0,
+        "role_id": 0,
+        "status": null,
+        "birthday": null,
+        "last_login": null,
+        "created_at": null,
+        "updated_at": null
+      }
+    }
+  ]
+}
