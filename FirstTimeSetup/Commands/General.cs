@@ -33,7 +33,7 @@ namespace DiscordBot.Commands
         [Command("link"), Aliases("linkage", "bondage"), Description("Login to twitch.")]
         public async Task Login(CommandContext ctx)
         {
-            if (ctx.Member.Id == 183270722548793344)
+            if (ctx.Member.Id == 183270722548793344 || ctx.Member.Id == 201751786745364482 || ctx.Member.Id == 138049119527763970)
             {
                 await ctx.RespondAsync("Linking...");
 
@@ -70,7 +70,7 @@ namespace DiscordBot.Commands
         [Command("tstats"), Aliases("linkstats"), Description("Gets stats.")]
         public async Task Stats(CommandContext ctx)
         {
-            if (ctx.Member.Id == 183270722548793344)
+            if (ctx.Member.Id == 183270722548793344 || ctx.Member.Id == 201751786745364482 || ctx.Member.Id == 138049119527763970)
             {
                 await ctx.RespondAsync("Getting Stats.");
                 if (!TwitchAPI.instance().JoinedChannels.Any()) { TwitchAPI.instance().JoinChannel("hd_neat"); }
@@ -86,7 +86,7 @@ namespace DiscordBot.Commands
         [Command("nickname"), Aliases("nname"), Description("Change Nickname.")]
         public async Task ChangeNickname(CommandContext ctx)
         {
-            if (ctx.Member.Id == 183270722548793344)
+            if (ctx.Member.Id == 183270722548793344 || ctx.Member.Id == 201751786745364482 || ctx.Member.Id == 138049119527763970)
             {
 
             }
@@ -99,7 +99,7 @@ namespace DiscordBot.Commands
         [Command("clear"), Aliases("clearthischan"), Description("Clears channel")]
         public async Task clear(CommandContext ctx, string amount)
         {
-            if (ctx.Member.Id == 183270722548793344)
+            if (ctx.Member.Id == 183270722548793344 || ctx.Member.Id == 201751786745364482 || ctx.Member.Id == 138049119527763970)
             {
                 var msgs = await ctx.Channel.GetMessagesAsync(Convert.ToInt32(amount));
                 await ctx.Channel.DeleteMessagesAsync(msgs);

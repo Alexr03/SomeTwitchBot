@@ -45,3 +45,8 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+*.pdb
+FirstTimeSetup/obj/Debug/DiscordBot.exe
+FirstTimeSetup/bin/Debug/DiscordBot.pdb
+*.exe
+FirstTimeSetup/obj/Debug/DiscordBot.pdb
