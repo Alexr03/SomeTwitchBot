@@ -25,9 +25,8 @@ namespace DiscordBot.Commands
         [Command("repeat"), Aliases("rep"), Description("Says what you said.")]
         public async Task Repeat(CommandContext ctx, string Repeat)
         {
-            await ctx.RespondAsync(ctx.RawArgumentString);
-
             await ctx.Message.DeleteAsync();
+            await ctx.RespondAsync(ctx.RawArgumentString);
         }
 
         [Command("link"), Aliases("linkage", "bondage"), Description("Login to twitch.")]
