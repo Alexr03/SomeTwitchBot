@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using TwitchLib;
 using TwitchLib.Models.Client;
 using TwitchLib.Events.Client;
+using System.Windows.Forms;
 
 namespace DiscordBot.API
 {
@@ -17,6 +18,9 @@ namespace DiscordBot.API
             ConnectionCredentials credentials = new ConnectionCredentials("Alexr03", "b8nv5cwrm5i8qrayuyf9lf2k8jyves");
 
             client = new TwitchClient(credentials, "hd_neat");
+
+            client.OnConnectionError += onConnectionError;
+            client.OnConnected += onConnected;
             client.OnJoinedChannel += onJoinedChannel;
             client.OnMessageReceived += onMessageReceived;
             client.OnWhisperReceived += onWhisperReceived;
@@ -26,8 +30,20 @@ namespace DiscordBot.API
             {
                 return true;
             }
+            else
+            {
+                return false;
+            }
+        }
 
-            return false;
+        private static void onConnected(object sender, OnConnectedArgs e)
+        {
+            MessageBox.Show("Connected. " + e.BotUsername);
+        }
+
+        private static void onConnectionError(object sender, OnConnectionErrorArgs e)
+        {
+            MessageBox.Show("ERROR WHEN CONNECTING.... " + e.Error + "\n Name: " + e.BotUsername);
         }
 
         public static TwitchClient instance()
