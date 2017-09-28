@@ -168,3 +168,40 @@ C:\Users\Alex\Documents\Visual Studio 2017\Projects\SomeTwitchBot\FirstTimeSetup
 C:\Users\Alex\Documents\Visual Studio 2017\Projects\SomeTwitchBot\FirstTimeSetup\obj\Debug\DiscordBot.csproj.GenerateResource.Cache
 C:\Users\Alex\Documents\Visual Studio 2017\Projects\SomeTwitchBot\FirstTimeSetup\obj\Debug\DiscordBot.exe
 C:\Users\Alex\Documents\Visual Studio 2017\Projects\SomeTwitchBot\FirstTimeSetup\obj\Debug\DiscordBot.pdb
+E:\Development\SomeTwitchBot\FirstTimeSetup\obj\Debug\DiscordBot.csproj.App.config
+E:\Development\SomeTwitchBot\FirstTimeSetup\obj\Debug\DiscordBot.csprojResolveAssemblyReference.cache
+E:\Development\SomeTwitchBot\FirstTimeSetup\obj\Debug\DiscordBot.Discord_Bot.resources
+E:\Development\SomeTwitchBot\FirstTimeSetup\obj\Debug\DiscordBot.Properties.Resources.resources
+E:\Development\SomeTwitchBot\FirstTimeSetup\obj\Debug\DiscordBot.csproj.GenerateResource.Cache
+E:\Development\SomeTwitchBot\FirstTimeSetup\obj\Debug\DiscordBot.csproj.CoreCompileInputs.cache
+E:\Development\SomeTwitchBot\FirstTimeSetup\obj\Debug\DiscordBot.exe
+E:\Development\SomeTwitchBot\FirstTimeSetup\obj\Debug\DiscordBot.pdb
+E:\Development\SomeTwitchBot\FirstTimeSetup\bin\Debug\DiscordBot.exe.config
+E:\Development\SomeTwitchBot\FirstTimeSetup\bin\Debug\DiscordBot.exe
+E:\Development\SomeTwitchBot\FirstTimeSetup\bin\Debug\DiscordBot.pdb
+E:\Development\SomeTwitchBot\FirstTimeSetup\bin\Debug\DSharpPlus.CommandsNext.dll
+E:\Development\SomeTwitchBot\FirstTimeSetup\bin\Debug\DSharpPlus.dll
+E:\Development\SomeTwitchBot\FirstTimeSetup\bin\Debug\DSharpPlus.Interactivity.dll
+E:\Development\SomeTwitchBot\FirstTimeSetup\bin\Debug\JsonFx.dll
+E:\Development\SomeTwitchBot\FirstTimeSetup\bin\Debug\MaterialSkin.dll
+E:\Development\SomeTwitchBot\FirstTimeSetup\bin\Debug\Microsoft.Threading.Tasks.dll
+E:\Development\SomeTwitchBot\FirstTimeSetup\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+E:\Development\SomeTwitchBot\FirstTimeSetup\bin\Debug\Newtonsoft.Json.dll
+E:\Development\SomeTwitchBot\FirstTimeSetup\bin\Debug\RestSharp.dll
+E:\Development\SomeTwitchBot\FirstTimeSetup\bin\Debug\System.Net.Http.Extensions.dll
+E:\Development\SomeTwitchBot\FirstTimeSetup\bin\Debug\System.Net.Http.Primitives.dll
+E:\Development\SomeTwitchBot\FirstTimeSetup\bin\Debug\TwitchLib.dll
+E:\Development\SomeTwitchBot\FirstTimeSetup\bin\Debug\websocket-sharp.dll
+E:\Development\SomeTwitchBot\FirstTimeSetup\bin\Debug\DSharpPlus.xml
+E:\Development\SomeTwitchBot\FirstTimeSetup\bin\Debug\DSharpPlus.CommandsNext.xml
+E:\Development\SomeTwitchBot\FirstTimeSetup\bin\Debug\DSharpPlus.Interactivity.xml
+E:\Development\SomeTwitchBot\FirstTimeSetup\bin\Debug\HtmlAgilityPack.pdb
+E:\Development\SomeTwitchBot\FirstTimeSetup\bin\Debug\HtmlAgilityPack.xml
+E:\Development\SomeTwitchBot\FirstTimeSetup\bin\Debug\JsonFx.xml
+E:\Development\SomeTwitchBot\FirstTimeSetup\bin\Debug\Microsoft.Threading.Tasks.xml
+E:\Development\SomeTwitchBot\FirstTimeSetup\bin\Debug\Microsoft.Threading.Tasks.Extensions.xml
+E:\Development\SomeTwitchBot\FirstTimeSetup\bin\Debug\Newtonsoft.Json.xml
+E:\Development\SomeTwitchBot\FirstTimeSetup\bin\Debug\RestSharp.xml
+E:\Development\SomeTwitchBot\FirstTimeSetup\bin\Debug\System.Net.Http.Extensions.xml
+E:\Development\SomeTwitchBot\FirstTimeSetup\bin\Debug\System.Net.Http.Primitives.xml
+E:\Development\SomeTwitchBot\FirstTimeSetup\bin\Debug\TwitchLib.xml

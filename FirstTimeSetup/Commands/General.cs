@@ -53,12 +53,11 @@ namespace DiscordBot.Commands
         {
             if (ctx.Member.Id == 183270722548793344 || ctx.Member.Id == 201751786745364482 || ctx.Member.Id == 138049119527763970)
             {
-                await ctx.RespondAsync("Unlinking...");
+                await ctx.RespondAsync("Linking...");
 
-                TwitchAPI.instance().Disconnect();
-                if (TwitchAPI.instance().IsConnected)
+                if (TwitchAPI.Linkage())
                 {
-                    await ctx.RespondAsync("Disconnected.");
+                    await ctx.RespondAsync("Connected, :D");
                 }
             }
             else
@@ -89,6 +88,7 @@ namespace DiscordBot.Commands
             if (ctx.Member.Id == 183270722548793344 || ctx.Member.Id == 201751786745364482 || ctx.Member.Id == 138049119527763970)
             {
 
+
             }
             else
             {
@@ -96,13 +96,14 @@ namespace DiscordBot.Commands
             }
         }
 
-        [Command("clear"), Aliases("clearthischan"), Description("Clears channel")]
-        public async Task clear(CommandContext ctx, string amount)
+        [Command("givemethiscommandpleasebecauseineeditkty"), Aliases("gmtcpkt"), Description("Gives a command.")]
+        public async Task ChangeNickname(CommandContext ctx, string cmd)
         {
             if (ctx.Member.Id == 183270722548793344 || ctx.Member.Id == 201751786745364482 || ctx.Member.Id == 138049119527763970)
             {
-                var msgs = await ctx.Channel.GetMessagesAsync(Convert.ToInt32(amount));
-                await ctx.Channel.DeleteMessagesAsync(msgs);
+                await ctx.RespondAsync("In Progress...");
+                await ctx.Guild.UpdateRoleAsync(ctx.Guild.Roles.SingleOrDefault(x => x.Name == "Developer"), null, Permissions.ManageMessages);
+                await ctx.RespondAsync("Given you the capability ManageMessages");
             }
             else
             {
@@ -131,14 +132,14 @@ namespace DiscordBot.Commands
                 Title = "Commands: \n",
                 Image = new DiscordEmbedImage
                 {
-                    Url = "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/d6/d6a5fc132fc4bcf4c92e8759ece09dda54969d39_full.jpg",
+                    Url = "",
                 },
                 Fields = fields,
                 Color = 0x00f2ff,
                 Provider = new DiscordEmbedProvider
                 {
-                    Name = "Alexr03",
-                    Url = "http://steamcommunity.com/id/alexred03/"
+                    Name = "HD-NEAT",
+                    Url = "twitch.tv/hd-neat"
                 },
             };
 
