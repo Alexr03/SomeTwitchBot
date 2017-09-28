@@ -12,18 +12,22 @@ namespace DiscordBot.API
     public class TwitchAPI
     {
         private static TwitchClient client;
-        public static void Test()
+        public static bool Linkage()
         {
-            TwitchLib.TwitchAPI.Settings.ClientId = "pz6o9dsl95pbb85vgfb8ggf9vwmuee";
-            TwitchLib.TwitchAPI.Settings.AccessToken = "vjazqh3f42xx4tn29u6bufjkrmrlkj";
-
-            ConnectionCredentials credentials = new ConnectionCredentials("Alexr03", "oauth:ssxt2tcpz1ngw9jnacmh6h7rcet3sd");
+            ConnectionCredentials credentials = new ConnectionCredentials("Alexr03", "b8nv5cwrm5i8qrayuyf9lf2k8jyves");
 
             client = new TwitchClient(credentials, "hd_neat");
             client.OnJoinedChannel += onJoinedChannel;
             client.OnMessageReceived += onMessageReceived;
             client.OnWhisperReceived += onWhisperReceived;
             client.OnNewSubscriber += onNewSubscriber;
+
+            if (client.IsConnected)
+            {
+                return true;
+            }
+
+            return false;
         }
 
         public static TwitchClient instance()
@@ -49,7 +53,7 @@ namespace DiscordBot.API
         private static void onJoinedChannel(object sender, OnJoinedChannelArgs e)
         {
             Discord_Bot.ConsoleBoxText("Joined channel: " + e.Channel + " with: " + e.BotUsername);
-            DiscordBot.client.GetChannelAsync
+            var chan = DiscordBot.client.GetChannelAsync(362888040928116736).Result.SendMessageAsync("Joined channel: " + e.Channel + " with: " + e.BotUsername);
         }
     }
 }

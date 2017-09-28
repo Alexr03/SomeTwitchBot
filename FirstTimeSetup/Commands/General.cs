@@ -37,9 +37,12 @@ namespace DiscordBot.Commands
             {
                 await ctx.RespondAsync("Linking...");
 
-                TwitchAPI.Test();
+                if (TwitchAPI.Linkage())
+                {
+                    await ctx.RespondAsync("Connected, :D");
+                }
 
-                await ctx.RespondAsync("Connected, lol.");
+                await ctx.RespondAsync("Welp, um I failed to connect " + ctx.Member.Mention);
             }
             else
             {
